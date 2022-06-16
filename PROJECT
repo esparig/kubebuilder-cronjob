@@ -1,0 +1,6 @@
+domain: esparig.github.io
+layout:
+- go.kubebuilder.io/v3
+projectName: kubebuilder-cronjob
+repo: esparig.github.io/kubebuilder-cronjob
+version: "3"
