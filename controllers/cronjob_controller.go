@@ -88,7 +88,7 @@ var (
 // For more details, check Reconcile and its Result here:
 // - https://pkg.go.dev/sigs.k8s.io/controller-runtime@v0.11.0/pkg/reconcile
 func (r *CronJobReconciler) Reconcile(ctx context.Context, req ctrl.Request) (ctrl.Result, error) {
-	log = log.FromContext(ctx)
+	log := log.FromContext(ctx)
 
 	/*
 		### 1: Load the CronJob by name
